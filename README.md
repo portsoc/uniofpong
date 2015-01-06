@@ -1,7 +1,9 @@
 # University of Pong
 Here's some ping pong code I wrote during a lecture on events.
 
-I've cleaned it up a bit since and added a multi-touch capability so it can be played against an opponent on a tablet.
+[Try it.](http://portsoc.github.io/uniofpong/index.raw.html)
+
+I've cleaned it up _a bit_ since (lots more to do) and added a multi-touch capability so it can be played against an opponent on a tablet.
 
 ## Challenge 1
 
