@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background: #59379E;
+}
+
+rect {
+    stroke: none;
+}
+
+#ball {
+    fill: rgba(255,255,255,1);
+}
+
+#lbat,
+#rbat {
+    fill: rgba(255,255,255,0.9);
+}
+
+text {
+    font-size: 100px;
+    font-family: "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Lucida Console", monospace;
+    fill: rgba(255,255,255,0.1);
+}
+
+#lscore {
+    text-anchor: end;
+}
+
+#rscore {
+    text-anchor: start;
+}
+
+#pongtable {
+    border: rgba(255,255,255,0.1) 1em solid;
+    width: 100%;
+    height: 100%;
+}
+
+.flex-container {
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    -webkit-flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+}
+
+.row {
+    width: 80%;
+}
+
+#debug {
+    text-anchor: middle;
+}
