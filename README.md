@@ -12,3 +12,7 @@ There is a mouse controller too, but this can only really control one bat at a t
 ## Challenge 2
 
 Implement `controller/cpu_player.js` so that it can be played against a machine.
+
+## Challenge 3
+
+Improve the touch interface so that the touched y-position exactly matches the position of the bat.
